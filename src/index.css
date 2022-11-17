@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "GothamSSm-Bold";
+  src: local('GothamSSm-Bold'),url('./assets/GothamSSm-Bold_Web.woff2') format('true');
+  font-weight: normal;
+}
+
+
+*{
+  margin:0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:'GothamSSm-Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
